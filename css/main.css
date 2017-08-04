@@ -1,0 +1,73 @@
+.wausauHomesBG{
+    background-color: #f5f7f8;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.welcomContainer{
+    width: 45%;
+    margin: 10px auto 20px auto;
+    display: flex;
+}
+
+.logo{
+    flex-grow: 12;
+}
+.text{
+    flex-grow: 1;
+    padding-left: 32px;
+    max-width: 60%;
+}
+p{
+    text-transform: uppercase;
+    line-height: 1.5em;
+    font-weight: bold;
+    margin: 20px auto;
+    display: block;
+    width: 92%;
+}
+.btnContainer{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn{
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(255,255,255,.2);
+}
+
+.win{
+    background-color:rgba(0, 132, 187, 1);
+}
+.win:hover{
+    background-color: rgba(0, 132, 187, .9)
+}
+.contact {
+    background-color: rgba(108, 181, 69, 1);
+}
+.contact:hover {
+    background-color: rgba(108, 181, 69, .9);
+}
+
+iframe{
+    height: 100vh;
+    width: 100vw;
+}
